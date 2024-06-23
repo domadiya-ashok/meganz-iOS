@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D45CACFC2C26321C00E54F53 /* MegaNZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CACFB2C26321C00E54F53 /* MegaNZApp.swift */; };
-		D45CACFE2C26321C00E54F53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CACFD2C26321C00E54F53 /* ContentView.swift */; };
 		D45CAD002C26321D00E54F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45CACFF2C26321D00E54F53 /* Assets.xcassets */; };
 		D45CAD032C26321D00E54F53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45CAD022C26321D00E54F53 /* Preview Assets.xcassets */; };
 		D45CAD0D2C26321D00E54F53 /* MegaNZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD0C2C26321D00E54F53 /* MegaNZTests.swift */; };
 		D45CAD172C26321D00E54F53 /* MegaNZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD162C26321D00E54F53 /* MegaNZUITests.swift */; };
 		D45CAD192C26321D00E54F53 /* MegaNZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD182C26321D00E54F53 /* MegaNZUITestsLaunchTests.swift */; };
+		D45CAD262C2638C400E54F53 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD252C2638C400E54F53 /* HomeView.swift */; };
+		D45CAD292C263ABD00E54F53 /* NasaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD282C263ABD00E54F53 /* NasaCard.swift */; };
+		D45CAD2B2C263B0C00E54F53 /* Nasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD2A2C263B0C00E54F53 /* Nasa.swift */; };
+		D45CAD2E2C2641D300E54F53 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD2D2C2641D300E54F53 /* MockData.swift */; };
+		D45CAD302C26422500E54F53 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = D45CAD2F2C26422500E54F53 /* mock.json */; };
+		D45CAD342C264ED500E54F53 /* NasaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD332C264ED500E54F53 /* NasaModel.swift */; };
+		D45CAD362C26863600E54F53 /* NasaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD352C26863600E54F53 /* NasaDetail.swift */; };
+		D45CAD382C26871700E54F53 /* AsyncRoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CAD372C26871700E54F53 /* AsyncRoundImage.swift */; };
+		D476C2732C2796C00060BB8E /* NasaModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476C2722C2796C00060BB8E /* NasaModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		D45CACF82C26321C00E54F53 /* MegaNZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaNZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45CACFB2C26321C00E54F53 /* MegaNZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaNZApp.swift; sourceTree = "<group>"; };
-		D45CACFD2C26321C00E54F53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D45CACFF2C26321D00E54F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D45CAD022C26321D00E54F53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D45CAD082C26321D00E54F53 /* MegaNZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaNZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		D45CAD122C26321D00E54F53 /* MegaNZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaNZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45CAD162C26321D00E54F53 /* MegaNZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaNZUITests.swift; sourceTree = "<group>"; };
 		D45CAD182C26321D00E54F53 /* MegaNZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaNZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D45CAD252C2638C400E54F53 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D45CAD282C263ABD00E54F53 /* NasaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaCard.swift; sourceTree = "<group>"; };
+		D45CAD2A2C263B0C00E54F53 /* Nasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa.swift; sourceTree = "<group>"; };
+		D45CAD2D2C2641D300E54F53 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		D45CAD2F2C26422500E54F53 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		D45CAD332C264ED500E54F53 /* NasaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaModel.swift; sourceTree = "<group>"; };
+		D45CAD352C26863600E54F53 /* NasaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaDetail.swift; sourceTree = "<group>"; };
+		D45CAD372C26871700E54F53 /* AsyncRoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRoundImage.swift; sourceTree = "<group>"; };
+		D476C2722C2796C00060BB8E /* NasaModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				D45CACFB2C26321C00E54F53 /* MegaNZApp.swift */,
-				D45CACFD2C26321C00E54F53 /* ContentView.swift */,
+				D45CAD272C263A7A00E54F53 /* Home */,
+				D476C26F2C2789310060BB8E /* NasaDetail */,
+				D476C2702C2789640060BB8E /* Model */,
+				D476C2712C2789A60060BB8E /* Helper */,
 				D45CACFF2C26321D00E54F53 /* Assets.xcassets */,
 				D45CAD012C26321D00E54F53 /* Preview Content */,
 			);
@@ -105,6 +124,7 @@
 		D45CAD012C26321D00E54F53 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				D45CAD2C2C2641BF00E54F53 /* Data */,
 				D45CAD022C26321D00E54F53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -114,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				D45CAD0C2C26321D00E54F53 /* MegaNZTests.swift */,
+				D476C2722C2796C00060BB8E /* NasaModelTests.swift */,
 			);
 			path = MegaNZTests;
 			sourceTree = "<group>";
@@ -125,6 +146,49 @@
 				D45CAD182C26321D00E54F53 /* MegaNZUITestsLaunchTests.swift */,
 			);
 			path = MegaNZUITests;
+			sourceTree = "<group>";
+		};
+		D45CAD272C263A7A00E54F53 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D45CAD252C2638C400E54F53 /* HomeView.swift */,
+				D45CAD282C263ABD00E54F53 /* NasaCard.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D45CAD2C2C2641BF00E54F53 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D45CAD2D2C2641D300E54F53 /* MockData.swift */,
+				D45CAD2F2C26422500E54F53 /* mock.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		D476C26F2C2789310060BB8E /* NasaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D45CAD352C26863600E54F53 /* NasaDetail.swift */,
+			);
+			path = NasaDetail;
+			sourceTree = "<group>";
+		};
+		D476C2702C2789640060BB8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D45CAD2A2C263B0C00E54F53 /* Nasa.swift */,
+				D45CAD332C264ED500E54F53 /* NasaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D476C2712C2789A60060BB8E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D45CAD372C26871700E54F53 /* AsyncRoundImage.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +297,7 @@
 			files = (
 				D45CAD032C26321D00E54F53 /* Preview Assets.xcassets in Resources */,
 				D45CAD002C26321D00E54F53 /* Assets.xcassets in Resources */,
+				D45CAD302C26422500E54F53 /* mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D45CACFE2C26321C00E54F53 /* ContentView.swift in Sources */,
+				D45CAD262C2638C400E54F53 /* HomeView.swift in Sources */,
+				D45CAD382C26871700E54F53 /* AsyncRoundImage.swift in Sources */,
+				D45CAD292C263ABD00E54F53 /* NasaCard.swift in Sources */,
+				D45CAD362C26863600E54F53 /* NasaDetail.swift in Sources */,
+				D45CAD342C264ED500E54F53 /* NasaModel.swift in Sources */,
 				D45CACFC2C26321C00E54F53 /* MegaNZApp.swift in Sources */,
+				D45CAD2B2C263B0C00E54F53 /* Nasa.swift in Sources */,
+				D45CAD2E2C2641D300E54F53 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D476C2732C2796C00060BB8E /* NasaModelTests.swift in Sources */,
 				D45CAD0D2C26321D00E54F53 /* MegaNZTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +532,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

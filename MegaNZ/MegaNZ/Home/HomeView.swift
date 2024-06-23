@@ -8,12 +8,29 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject var nasaModel = NasaModel()
+    
     var body: some View {
-        
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(nasaModel.nasa) { nasa in
+                    NavigationLink{
+                        NasaDetail(nasa: nasa)
+                    } label: {
+                        NasaCard(nasa: nasa)
+                    }
+                }
+            }
+            .navigationTitle("MegaNZ")
+        }
+        .onAppear {
+            Task {
+                await nasaModel.fetchData()
+            }
+        }
     }
 }
 
 #Preview {
-    HomeView()
+    HomeView(nasaModel: NasaModel())
 }
