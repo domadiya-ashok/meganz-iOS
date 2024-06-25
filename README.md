@@ -20,6 +20,3 @@ To build a small feature to fetch list of Astronomy Picture of the Day for the l
         test in swift project, Thanks for this interview. 
         5. I tried keep project as simaple as i can.
     
-## Submission
-    I have granted the permission on ios-hiring@mega.co.nz and if i missed any thing or you want to add more funcationality, 
-    please let me know, happy to perform. Thank you very much for your time. 
